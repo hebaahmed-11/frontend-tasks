@@ -1,0 +1,251 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+
+	
+	}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main style*/
+body , html{
+    font-family: 'Quicksand', sans-serif;
+	line-height: 1,8rem;
+	}
+ul , ol{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+/* navbar style*/
+.navbar{
+	padding:30px 0 16px;
+	width: 100%;
+
+	
+}
+.navbar .nav-items{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.navbar .nav-items .links ul li{
+	display: inline-block;
+}
+.navbar .nav-items .links ul li a{
+	padding:0 20px;}
+
+
+.navbar .nav-items .links{
+	
+margin-left: 400px
+}
+.navbar .nav-items .logo{
+	margin-left: 200px
+}
+.navbar .nav-items button{
+	background-color:#848abd;
+	padding: 10px;
+	border: none;
+	border: 1px solid #848abd; 
+	border-radius: 20px;
+	color: white;
+	margin-left: 5px;
+	margin-bottom: 6px;
+	margin-top: -10px
+	
+}
+/* showcase style*/
+.showcase{
+	
+	background-image: url(../images/image1.jpg);
+    height: 100vh;
+	background-size: cover;
+	opacity: .9;
+	
+}
+.showcase .content{
+	text-align: center;
+	padding-top: 450px
+}
+.showcase .content button{
+	
+	margin-top: 20px;
+	background-color: white;
+	border: none;
+	border-radius: 100px;
+	padding: 20px 30px;
+	color:#808080; 
+} 
+/*info style*/
+.info{
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+.info .content button {
+	
+	background-color:rgba(132, 138, 189, 0.15);
+	padding: 10px;
+	border: none;
+	border: 1px solid rgba(132, 138, 189, 0.15); 
+	border-radius: 20px;
+    color: #848abd;
+	margin-bottom: 26px
+}
+.info .content .row h3  {
+	padding: 26px 0;
+
+}
+.info .content .row   {
+	margin-top: 30px;
+}
+
+.info .content .center .img{
+	margin-left: -550px;}
+
+/* how it works section style*/
+.how it works .content .row{
+	
+	padding: 0 150px
+}
+
+/* server cloud style*/
+.server .content .row{
+	
+	margin: 0 150px
+}
+.server-cloud .content .row .details button{
+	color:#848abd ;
+	background-color:rgba(132, 138, 189, 0.15);;
+	padding: 4px;
+	border: none;
+	border-radius: 20px;
+	margin: 10px 0;
+	
+ } 
+
+.server-cloud .content .row .details a:havor{
+	
+	color:#848abd; 
+}
+
+/* services style*/
+.services{
+	
+border-radius: 0 0 40% 40%
+}
+.services .content .row{
+	
+	padding: 0 170px
+}
+
+
+/* video style*/
+.video{
+	background-color:#848abd; 
+	background-image: url(../images/background3.jpg);
+	height: 100vh;
+	background-size: cover;
+	opacity: .9;
+	padding-top: 300px;
+}
+.video .content button{
+	
+	background-color: white;
+	color:dimgray;
+	border: none;
+	border-radius: 30px;
+	margin: 20px 0;
+}
+/* customer section style*/
+.customer{
+	
+	padding: 50px 0;
+}
+.customer .content button
+{
+    color: #848abd;
+	background-color:rgba(132, 138, 189, 0.15);;
+	border: none;
+	border-radius: 30px;
+	padding:5px 7px;
+	margin: 10px 0;
+}
+.customer .content .row{
+	
+	padding: 0 200px
+}
+/* pricing section style*/
+.pricing{
+	
+	padding: 50px 0;
+}
+.pricing .content .row{
+	
+	padding: 0 110px
+}
+.pricing .content button{
+	
+	 color: #848abd;
+	background-color:rgba(132, 138, 189, 0.15);;
+	border: none;
+	border-radius: 30px;
+	padding:5px 7px;
+	margin: 10px 0;
+}
+.pricing .content .row .details{
+	
+	padding-left: 160px;
+}
+
+	
+.basic-plan , .premium-plan{
+	
+	margin: 50px 30px;
+}
+
+/* footer style*/
+.footer{
+	
+	background-color: #012f62;
+}
+.footer .content .row{
+	
+	padding: 0 130px
+}
+
+.footer button{
+	
+	color:white;
+	background-color:#848abd;
+	border: none;
+	border-radius: 30px;
+	padding: 7px 15px;
+	
+} 
+	
+.footer input{
+	border-radius: 50px;
+	padding: 5px 5px;
+	background-color:#183f7f;
+	border-color: #102f62;
+	border: none;
+	opacity: ,8;
+	width: 70%;
+	
+}
+
+/* copywrite style*/
+.copywrite{
+	
+	background-color: #012f62;
+}
+
+
+	

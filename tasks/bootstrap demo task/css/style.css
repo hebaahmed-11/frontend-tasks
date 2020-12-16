@@ -1,0 +1,164 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+
+	
+	}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* main style*/
+body , html{
+    font-family: 'Quicksand', sans-serif;
+	line-height: 1,8rem;
+	}
+ul , ol{
+	list-style: none;
+	
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/* navbar style*/
+.navbar{padding:16px 0;
+	background-color: black !important;}
+.navbar .container .navbar-items{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar .container .navbar-items .links ul li{
+	display: inline-block;
+}
+.navbar .container .navbar-items .links ul li a{
+	padding: 9px;
+	transition: .5s ease
+}
+.navbar .navbar-items .links{
+	
+	margin-left: 750px
+}
+.navbar .navbar-items .logo{
+	font-size: 1,5rem;
+	font-weight:bold;}
+
+/* showcase style*/
+.showcase{
+	background-image: url(../images/img1.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size:cover;
+	border-radius: 0 0 16% 16%
+	
+}
+.showcase .content{
+	
+	padding-top: 95px;
+}
+.showcase .content hr{
+	
+	width: 6%;
+	margin:20px auto;
+	border: 3px solid white !important;
+		
+}
+.showcase .content button{
+	background-color: #009476;
+	padding: 17px;
+	border: none;
+	border-radius: 30%
+		
+}
+.showcase .content button:hover{
+	color:#009476;
+	background-color: #fff;
+	transition:background color 3s ease-in-out}
+/* services style*/
+.services .content{
+	padding: 70px 0 130px;
+}
+
+}
+.services .content h2{
+	font-size: 2.5rem;
+}
+.services .content hr{
+	width: 10%;
+	margin:40px auto;
+	border: 4px solid black !important;}
+
+.services .content .row {
+	
+	padding-top 100px;
+}.services .content .row h3 {
+	margin-top: 50px}
+}.services .content .row .icon {
+	margin: 50px 0;}
+/* explore style*/
+.explore{
+	background-color: #f8f9fa;
+	padding:50px 0 ;
+	
+	
+	
+}
+/* testmonials style*/
+.testmonials .content{
+	
+	padding:60px 0;
+}
+.testmonials .content h3{
+	margin:40px 0;}
+/* slider style*/
+.slider .containt .details a{
+	
+	color:#009476;
+}
+/* form style*/
+.form .content{
+	display: flex;
+	flex-direction: column;
+	
+}
+.form .content hr{
+	width: 9%;
+	margin: 10px auto;
+	border: 3px solid #031630;
+	
+
+}
+input[type="text"]{
+	width: 40%;
+	border:none;
+	border-bottom: 2px solid #031630;
+	color: #000000;
+	margin: auto;
+}
+
+textarea{
+	width: 40%;
+	border:none;
+	border-bottom: 2px solid #031630;
+	margin: auto;
+}
+/* join style*/
+.join{
+	background-color:#009476; 
+}
+input{
+	color:#031630;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
